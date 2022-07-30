@@ -1,0 +1,45 @@
+*{
+    font-family: 'Lato', 'sans-serif';
+}
+
+.primary-color{
+    background-color: #0083DD;
+}
+.icon-color{
+    color: #FFFFFF;
+}
+.text-nav{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.0em;
+    margin-left: 0.5em;
+}
+
+.area-text{
+    background-color: #FFFFFF;
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar-brand span {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+    color: #FFFFFF;
+ }
+
+ #navbar-items .navbar-nav {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+#navbar-items .nav-item {
+    margin:  0 0.1em;
+}
