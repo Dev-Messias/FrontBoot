@@ -8,17 +8,8 @@
 .icon-color{
     color: #FFFFFF;
 }
-.text-nav{
-    color: #FFFFFF;
-    font-weight: 600;
-    font-size: 1.0em;
-    margin-left: 0.5em;
-}
 
-.area-text{
-    background-color: #FFFFFF;
-}
-
+/* NAVBAR */
 .navbar-brand {
     display: flex;
 }
@@ -42,4 +33,63 @@
 
 #navbar-items .nav-item {
     margin:  0 0.1em;
+}
+
+.text-nav{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.0em;
+    margin-left: 0.5em;
+}
+
+.area-text{
+    background-color: #FFFFFF;
+}
+
+/* SECTION HOME */
+
+.home{
+    background-color: #0083DD ;
+    padding: 20px;
+}
+
+.img-home {
+   width: 100%;
+}
+
+.text-spn span{
+    background-color: #0BE0EE;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.0em;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 10px;
+    
+}
+
+.text-h{
+    margin-top: 15px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.bt-curso{
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icone{
+    padding: 10px;
+    display: flex;
+    margin-top: 2.5%;
+    
 }
