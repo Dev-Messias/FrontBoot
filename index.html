@@ -18,6 +18,10 @@
     <script src="bootstrap/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css"> 
+       
     <!-- MEU CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="img//icon.ico" rel="icon">
@@ -40,7 +44,7 @@
             <div class="collapse navbar-collapse" id="navbar-items">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a href="#" class="nav-link  text-nav" aria-current="page">Categorias</a>
+                        <a href="#categorias" class="nav-link  text-nav" aria-current="page">Categorias</a>
                     </li>
                     <li class="nav-item">
                         <input class="nav-link form-control me-2" type="search" placeholder="Pesquisar por cursos"
@@ -83,11 +87,11 @@
     <!-- CATEGORIAS -->
     <section id="categorias">
         <div class="container-fluid text-center categorias-container ">
-            <p>Encontre seu cursos</p>
+            <p>Encontre seu curso</p>
             <h2>Categorias de Cursos</h2>
-        </div>
+        
 
-        <div class="row">
+        <div class="row mgbt">
             <div class="col-md-12 col-sm-12 text-center">
                 <a class="btn btn-area mt-8 mr-8">
                     <div class="card-area">
@@ -130,9 +134,83 @@
                 </a>
             </div>
         </div>
+    </div>
     </section>
 
+    <!-- Carousel card -->
+    <section>
+        <div class="text-header-card" >
+            <p>Recomendações</p>
+            <h2>Top Mais Procurados</h2>
+        </div>
+        
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
 
+                            <div class="card-image">
+                                <img src="img/curso01.png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Curso 01</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                            <button class="button">Ver Mais</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="img/curso02.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Curso 02</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                            <button class="button">Ver Mais</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="img/curso03.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Curso 03</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                            <button class="button">Ver mais </button>
+                        </div>
+                    </div>
+                  
+                    
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
 </body>
+
+       <!-- Swiper JS -->
+       <script src="js/swiper-bundle.min.js"></script>
+
+       <!-- JavaScript -->
+       <script src="js/script.js"></script>
 
 </html>
