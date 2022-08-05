@@ -296,6 +296,24 @@
   }
 }
 
+@media screen and (max-width: 700px){
+  .home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0083DD ;
+    padding: 30px;
+    
+  }
+
+  .img-home {
+    display: none;
+  }
+
+  
+}
+
 
 
 
