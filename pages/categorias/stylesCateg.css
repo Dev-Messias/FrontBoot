@@ -1,0 +1,101 @@
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-produtos {
+    border-bottom: 1px solid #7a7a7a;
+}
+
+.text-categ{
+    display: flex;
+    padding: 30px;
+    margin-bottom: -50px;
+}
+
+.text-categ > h5 {
+    color: #0083DD;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.img-produto{
+    width: 300px;
+    height: 150px;
+}
+
+.btn-custom-round{
+    padding: 5px 9px !important;
+}
+
+
+
+.categorias-produtos{
+    overflow-x: scroll;
+    list-style: none;
+    padding: 50px ;
+    white-space: nowrap;
+    display: block;
+    
+    
+    
+}
+
+ /*Essa funcao desabilita o scroll porem ele fica sem funcionar
+.categorias-produtos::-webkit-scrollbar {
+    display: none;
+    
+    
+}*/
+
+
+.produto{
+    display: inline-block;
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.produto:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 999;
+    transform: 0.5s;
+}
+
+.produto:hover  .produto-info {
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.produto-info{
+    background-color: #0083DD;
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+    transform: scale(0);
+}
+
+.produto-info .col-12{
+    margin-top: 5px;
+}
+
+.produto-info .col-12:first-child{
+    margin-bottom: 20px;
+}
+
+.produto-info > p {
+    color: #fff;
+    font-size: 12px;
+}
+
+.produto-info > p > text {
+    color: #fff;
+}
+
+.ico-color{
+    color: #fff;
+}
+

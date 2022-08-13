@@ -113,17 +113,19 @@
 }
 
 
-.categorias-container p{
-    color: #0083DD;
+ .categorias-container  p{
     font-weight: 700;
     font-family: 'Lato', 'sans-serif';
     font-size: 20px;
+   color: #0083DD;
+   
 }
 
-.categorias-container h2{
+.categorias-container a{
     font-family: 'Lato', 'sans-serif';
     font-size: 40px;
     font-weight: bold;
+    color: #333;
 }
 
 
